@@ -1,0 +1,16 @@
+{
+  "name": "@dexlens/addressbook",
+  "version": "0.0.1",
+  "exports": "./src/main.ts",
+  "tasks": {
+    "dev": "deno run --watch src/main.ts --allow-all",
+    "test": "deno test --allow-all"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  },
+  "publish": {
+    "include": ["LICENSE", "README.md", "src/**/*"],
+    "exclude": [".env", "backups"]
+  }
+}
