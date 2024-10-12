@@ -1,7 +1,7 @@
 {
   "name": "@dexlens/addressbook",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "exports": "./src/main.ts",
   "tasks": {
     "dev": "deno run --watch src/main.ts --allow-all",

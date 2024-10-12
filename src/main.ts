@@ -4,7 +4,9 @@
  * @license MIT
  * @description A simple address book for DexLens.
  * @example
+ * ```typescript
  * import { ETH_UNISWAP_ROUTER_ADDRESS } from "jsr:@dexlens/addressbook";
+ * ```
  */
 
 /**
